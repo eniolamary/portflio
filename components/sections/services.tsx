@@ -83,9 +83,10 @@ export default function Services() {
 
           </div>
         </Container>
+
+        <div className="mt-24 h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+
       </section>
     </MotionWrapper>
   );
 }
-
-<div className="mt-24 h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
