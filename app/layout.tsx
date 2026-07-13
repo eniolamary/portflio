@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   creator: "Mary Eniola",
 
   // Change this after deployment
-  metadataBase: new URL("https://YOUR-VERCEL-URL.vercel.app"),
+  metadataBase: new URL("https://maryeniola.vercel.app/"),
 
   // Search Engine
   robots: {
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     description:
       "Helping businesses transform raw data into actionable insights through analytics, dashboards, and machine learning.",
 
-    url: "https://YOUR-VERCEL-URL.vercel.app",
+    url: "https://maryeniola.vercel.app/",
 
     siteName: "Mary Eniola Portfolio",
 

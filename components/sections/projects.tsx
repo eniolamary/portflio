@@ -72,11 +72,11 @@ export default function CaseStudies() {
           <div className="mb-16 text-center">
 
             <p className="font-semibold text-primary">
-              PROJECT PORTFOLIO
+              PORTFOLIO
             </p>
 
             <h2 className="mt-4 text-4xl font-bold">
-              Featured Data Projects
+              Data Projects
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl leading-8 text-muted-foreground">
