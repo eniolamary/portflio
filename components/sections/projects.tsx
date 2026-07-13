@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 import MotionWrapper from "../animations/MotionWrapper";
+import Link from "next/link";
 
 const projects = [
   {
@@ -13,6 +14,7 @@ const projects = [
       "Built a machine learning model to predict customer spending and identify the key drivers of purchasing behaviour.",
     tools: ["Python", "Pandas", "NumPy", "Scikit-learn"],
     github: "https://github.com/eniolamary/Bookstore-Customer-Analytics-Project",
+    caseStudy: "/case-studies/customer-analytics",
     demo: "",
     status: "Completed",
   },
@@ -24,6 +26,7 @@ const projects = [
       "Designed an interactive Power BI dashboard after cleaning and transforming retail sales data using SQL.",
     tools: ["SQL", "Power BI", "DAX", "Excel"],
     github: "https://github.com/eniolamary/Sales-Analysis-Project",
+    caseStudy: "/case-studies/retail-sales-dashboard",
     demo: "",
     status: "Completed",
   },
@@ -35,6 +38,7 @@ const projects = [
       "Cleaned, validated and standardised messy spreadsheet data ready for reporting and analysis.",
     tools: ["Excel", "Pivot Tables", "Charts"],
     github: "https://github.com/eniolamary/Excel-data-cleaning-project",
+    caseStudy: "/case-studies/excel-data-cleaning",
     demo: "",
     status: "Completed",
   },
@@ -164,13 +168,17 @@ export default function CaseStudies() {
 
                       <div className="mt-6 flex gap-3">
 
-                        <Button className="flex-1">
-
-                          Case Study
-
-                          <ArrowRight className="ml-2 h-4 w-4" />
-
-                        </Button>
+                        {project.caseStudy && (
+                          <Link
+                            href={project.caseStudy}
+                            className="flex-1"
+                          >
+                            <Button className="w-full">
+                              Case Study
+                              <ArrowRight className="ml-2 h-4 w-4" />
+                            </Button>
+                          </Link>
+                        )}
 
                         <a
                           href={project.github}
