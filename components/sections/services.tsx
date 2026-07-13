@@ -84,7 +84,7 @@ export default function Services() {
           </div>
         </Container>
 
-        <div className="mt-24 h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+        <div className="rounded-3xl border border-white/10 bg-card p-8 transition-all duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-xl" />
 
       </section>
     </MotionWrapper>

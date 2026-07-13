@@ -8,7 +8,7 @@ import MotionWrapper from "../animations/MotionWrapper";
 const projects = [
   {
     title: "Customer Analytics & Machine Learning",
-    image: "/images/projects/customer-analytics.png",
+    image: "/images/projects/customer-analytics.PNG",
     description:
       "Built a machine learning model to predict customer spending and identify the key drivers of purchasing behaviour.",
     tools: ["Python", "Pandas", "NumPy", "Scikit-learn"],
@@ -19,7 +19,7 @@ const projects = [
 
   {
     title: "Retail Sales Dashboard",
-    image: "/images/projects/sales-dashboard.png",
+    image: "/images/projects/sales-dashboard.PNG",
     description:
       "Designed an interactive Power BI dashboard after cleaning and transforming retail sales data using SQL.",
     tools: ["SQL", "Power BI", "DAX", "Excel"],
@@ -30,7 +30,7 @@ const projects = [
 
   {
     title: "Excel Data Cleaning",
-    image: "/images/projects/excel-cleaning2.png",
+    image: "/images/projects/excel-cleaning2.PNG",
     description:
       "Cleaned, validated and standardised messy spreadsheet data ready for reporting and analysis.",
     tools: ["Excel", "Pivot Tables", "Charts"],

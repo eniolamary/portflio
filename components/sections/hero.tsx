@@ -12,7 +12,7 @@ export default function Hero() {
       className="section-padding min-h-screen flex items-center"
     >
       <Container>
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid items-center gap-16 lg:grid-cols-[1.3fr_0.7fr]">
 
           {/* LEFT */}
 
@@ -152,11 +152,11 @@ export default function Hero() {
             }}
           >
 
-            <div className="relative h-[560px] w-[420px]">
+            <div className="relative h-[500px] w-[460px]">
 
               {/* Background Glow */}
 
-              <div className="absolute inset-0 scale-105 rounded-[220px_220px_28px_28px] bg-primary/20 blur-3xl"></div>
+              <div className="absolute inset-0 scale-100 rounded-[220px_220px_28px_28px] bg-primary/20 blur-3xl"></div>
 
               {/* Photo */}
 
