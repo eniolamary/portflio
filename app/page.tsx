@@ -1,6 +1,3 @@
-import Navbar from "@/components/layout/navbar";
-import Footer from "@/components/layout/Footer";
-
 import Hero from "@/components/sections/hero";
 import About from "@/components/sections/about";
 import Skills from "@/components/sections/skills";

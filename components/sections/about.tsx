@@ -43,7 +43,7 @@ export default function About() {
 
             {/* RIGHT */}
 
-            <div className="rounded-3xl border border-white/10 bg-card p-10">
+            <div className="rounded-3xl border border-white/10 bg-card p-8 transition-all duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-xl">
 
               <h3 className="text-2xl font-bold">
                 Mary Eniola Olalere
@@ -84,7 +84,7 @@ export default function About() {
 
         </Container>
 
-        <div className="rounded-3xl border border-white/10 bg-card p-8 transition-all duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-xl" />
+        <div className="mt-24 h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
       </section>
       

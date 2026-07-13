@@ -64,7 +64,7 @@ export default function Services() {
               return (
                 <div
                   key={service.title}
-                  className="rounded-3xl border border-white/10 bg-card p-6"
+                  className="rounded-3xl border border-white/10 bg-card p-8 transition-all duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-xl"
                 >
                   <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/15 text-primary">
                     <Icon size={28} />
@@ -84,7 +84,7 @@ export default function Services() {
           </div>
         </Container>
 
-        <div className="rounded-3xl border border-white/10 bg-card p-8 transition-all duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-xl" />
+        <div className="mt-24 h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
       </section>
     </MotionWrapper>

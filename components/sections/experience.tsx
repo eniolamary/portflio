@@ -69,7 +69,7 @@ export default function Experience() {
 
                 <div
                   key={item.title}
-                  className="rounded-3xl border border-white/10 bg-card p-8"
+                 className="rounded-3xl border border-white/10 bg-card p-8 transition-all duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-xl"
                 >
 
                   <div className="flex gap-6">
@@ -108,7 +108,7 @@ export default function Experience() {
 
         </Container>
 
-        <div className="rounded-3xl border border-white/10 bg-card p-8 transition-all duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-xl" />
+        <div className="mt-24 h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
       </section>
     </MotionWrapper>

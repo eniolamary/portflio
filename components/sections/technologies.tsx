@@ -40,7 +40,7 @@ export default function Technologies() {
 
               <div
                 key={item}
-                className="rounded-full border border-white/10 bg-card px-6 py-3 hover:border-primary transition"
+                className="rounded-full border border-white/10 bg-card px-6 py-3 transition-all duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-xl"
               >
                 {item}
               </div>
@@ -51,7 +51,7 @@ export default function Technologies() {
 
         </Container>
 
-        <div className="rounded-3xl border border-white/10 bg-card p-8 transition-all duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-xl" />
+        <div className="mt-24 h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
         
       </section>
     </MotionWrapper>
