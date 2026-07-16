@@ -58,7 +58,7 @@ export default function SalesDashboardPage() {
           <div className="mt-10 flex flex-wrap gap-4">
 
             <a
-              href="https://github.com/eniolamary/Sales-Analysis-Project"
+              href="https://github.com/eniolamary/Retail-Sales-Dashboard"
               target="_blank"
               rel="noopener noreferrer"
             >

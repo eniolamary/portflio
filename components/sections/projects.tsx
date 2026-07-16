@@ -13,7 +13,7 @@ const projects = [
     description:
       "Built a machine learning model to predict customer spending and identify the key drivers of purchasing behaviour.",
     tools: ["Python", "Pandas", "NumPy", "Scikit-learn"],
-    github: "https://github.com/eniolamary/Bookstore-Customer-Analytics-Project",
+    github: "https://github.com/eniolamary/Customer-Analytics-ML",
     caseStudy: "/case-studies/customer-analytics",
     demo: "",
     status: "Completed",
@@ -25,7 +25,7 @@ const projects = [
     description:
       "Designed an interactive Power BI dashboard after cleaning and transforming retail sales data using SQL.",
     tools: ["SQL", "Power BI", "DAX", "Excel"],
-    github: "https://github.com/eniolamary/Sales-Analysis-Project",
+    github: "https://github.com/eniolamary/Retail-Sales-Dashboard",
     caseStudy: "/case-studies/sales-dashboard",
     demo: "",
     status: "Completed",
@@ -37,7 +37,7 @@ const projects = [
     description:
       "Cleaned, validated and standardised messy spreadsheet data ready for reporting and analysis.",
     tools: ["Excel", "Pivot Tables", "Charts"],
-    github: "https://github.com/eniolamary/Excel-data-cleaning-project",
+    github: "https://github.com/eniolamary/Excel-Data-Cleaning",
     caseStudy: "/case-studies/business-reporting",
     demo: "",
     status: "Completed",

@@ -58,7 +58,7 @@ export default function BusinessReportingPage() {
           <div className="mt-10 flex flex-wrap gap-4">
 
             <a
-              href="https://github.com/eniolamary/Excel-data-cleaning-project"
+              href="https://github.com/eniolamary/Excel-Data-Cleaning"
               target="_blank"
               rel="noopener noreferrer"
             >

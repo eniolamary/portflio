@@ -60,7 +60,7 @@ export default function CustomerAnalyticsPage() {
           <div className="mt-10 flex flex-wrap gap-4">
 
             <a
-              href="https://github.com/eniolamary/Bookstore-Customer-Analytics-Project"
+              href="https://github.com/eniolamary/Customer-Analytics-ML"
               target="_blank"
               rel="noopener noreferrer"
             >
