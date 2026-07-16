@@ -64,7 +64,7 @@ const projects = [
 
 export default function CaseStudies() {
   return (
-    <>
+    <MotionWrapper>
       <section
         id="projects"
         className="section-padding"
@@ -233,6 +233,6 @@ export default function CaseStudies() {
         <div className="mt-24 h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
       </section>
-    </>
+    </MotionWrapper>
   );
 }
