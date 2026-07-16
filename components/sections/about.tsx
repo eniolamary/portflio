@@ -52,16 +52,6 @@ export default function About() {
               <div className="mt-8 space-y-5">
 
                 <Info
-                  label="Location"
-                  value="Nigeria"
-                />
-
-                <Info
-                  label="Education"
-                  value="Agricultural Economics"
-                />
-
-                <Info
                   label="Certification"
                   value="ALX Data Science"
                 />

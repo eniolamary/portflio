@@ -60,7 +60,7 @@ export default function CustomerAnalyticsPage() {
           <div className="mt-10 flex flex-wrap gap-4">
 
             <a
-              href="YOUR_GITHUB_LINK"
+              href="https://github.com/eniolamary/Bookstore-Customer-Analytics-Project"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -122,13 +122,11 @@ export default function CustomerAnalyticsPage() {
 
           <p className="mt-8 text-lg leading-8 text-muted-foreground">
 
-            The business lacked a reliable way to understand customer spending
-            behaviour or estimate future customer purchases. Without these
-            insights, identifying high-value customers, improving marketing
-            campaigns, and making informed business decisions became
-            increasingly difficult. The objective of this project was to
-            develop a data-driven solution capable of uncovering customer
-            trends while accurately predicting customer spending.
+            A retail bookstore had accumulated a large volume of customer transaction data but lacked the analytical capability to transform that information into actionable business insights. As a result, the business had limited visibility into customer purchasing behaviour, factors influencing spending, and opportunities to improve customer retention and revenue generation.
+
+            Without a reliable forecasting approach, management was unable to accurately identify high-value customers, anticipate future spending patterns, or make data-driven decisions regarding marketing campaigns and customer engagement strategies.
+
+            The objective of this project was to analyse historical customer data, uncover behavioural trends, and develop a machine learning model capable of predicting customer spending to support strategic business decision-making.
 
           </p>
 
@@ -182,7 +180,7 @@ export default function CustomerAnalyticsPage() {
                 </p>
 
                 <h3 className="mt-3 text-3xl font-bold text-primary">
-                    12,000
+                    12,000+
                 </h3>
 
                 <p className="mt-2 text-sm text-muted-foreground">
@@ -263,6 +261,34 @@ export default function CustomerAnalyticsPage() {
             </div>
 
         </section>
+        
+        {/* ===================================================== */}
+        {/* PROJECT WORKFLOW */}
+        {/* ===================================================== */}
+
+        <section className="my-28">
+
+            <div className="flex items-center gap-6">
+
+                <div className="h-px flex-1 bg-white/10" />
+
+                <div className="rounded-full border border-primary/30 bg-primary/10 px-6 py-2">
+                <span className="font-semibold tracking-widest text-primary uppercase">
+                    Project Workflow
+                </span>
+                </div>
+
+                <div className="h-px flex-1 bg-white/10" />
+
+            </div>
+
+            <p className="mx-auto mt-8 max-w-3xl text-center leading-8 text-muted-foreground">
+                The following sections document the complete analytical workflow,
+                from preparing raw customer data through exploratory analysis,
+                feature engineering, machine learning, and business recommendations.
+            </p>
+
+        </section>
 
         {/* DATA CLEANING */}
 
@@ -323,7 +349,10 @@ export default function CustomerAnalyticsPage() {
 
         </section>
 
+        {/* ===================================================== */}
         {/* EXPLORATORY DATA ANALYSIS */}
+        {/* ===================================================== */}
+
 
         <section className="mb-28">
 
@@ -344,71 +373,7 @@ export default function CustomerAnalyticsPage() {
 
         </section>
 
-        <section className="mb-24">
 
-            <h3 className="text-2xl font-bold">
-            Customer Spending Behaviour
-            </h3>
-
-            <p className="mt-4 text-muted-foreground leading-8">
-
-            Understanding how customer spending is distributed helps identify purchasing
-            patterns, spending variability, and the presence of unusually high-value
-            customers that may influence business strategy.
-
-            </p>
-
-            {/* IMAGE */}
-
-            <Image
-                src="/case-studies/customer-analytics/Numerical Variables Distribution.PNG"
-                alt="Customer Spending Behaviour Distribution"
-                width={1400}
-                height={900}
-                className="mt-10 rounded-2xl border border-white/10"
-            />
-
-            <div className="mt-8 rounded-2xl border border-primary/20 bg-primary/5 p-6">
-
-            <h4 className="font-semibold text-primary">
-            Business Insight
-            </h4>
-
-            <p className="mt-3 leading-8 text-muted-foreground">
-
-            The spending distribution is positively skewed, with most customers spending
-            relatively small amounts while a smaller group contributes significantly
-            higher revenue. This suggests that a limited number of customers generate a
-            disproportionately large share of total sales.
-
-            </p>
-
-            </div>
-
-        </section>
-
-        {/* ===================================================== */}
-        {/* EXPLORATORY DATA ANALYSIS */}
-        {/* ===================================================== */}
-
-        <section className="mb-28">
-
-            <h2 className="text-4xl font-bold">
-                Exploratory Data Analysis
-            </h2>
-
-            <p className="mt-8 max-w-4xl text-lg leading-8 text-muted-foreground">
-
-                Exploratory Data Analysis (EDA) was performed to better understand
-                customer behaviour, identify underlying trends, detect anomalies,
-                and explore relationships between variables before developing the
-                machine learning models. Both univariate and bivariate analyses
-                were conducted to uncover meaningful business insights and guide
-                feature selection.
-
-            </p>
-
-        </section>
 
         <section className="mb-24">
 
@@ -426,10 +391,10 @@ export default function CustomerAnalyticsPage() {
             </p>
 
             <Image
-            src="/case-studies/customer-analytics/Numerical Variables Distribution.PNG"
+            src="/images/case-studies/customer-analytics/Numerical Variables Distribution.PNG"
             alt="Numerical Variables Distribution"
-            width={1400}
-            height={900}
+            width={800}
+            height={500}
             className="mt-10 rounded-2xl border border-white/10"
             />
 
@@ -479,10 +444,10 @@ export default function CustomerAnalyticsPage() {
             </p>
 
             <Image
-            src="/case-studies/customer-analytics/Customer Engagement Distribution.PNG"
+            src="/images/case-studies/customer-analytics/Customer Engagement Distribution.PNG"
             alt="Customer Engagement"
-            width={1400}
-            height={900}
+            width={800}
+            height={500}
             className="mt-10 rounded-2xl border border-white/10"
             />
 
@@ -530,10 +495,10 @@ export default function CustomerAnalyticsPage() {
             </p>
 
             <Image
-            src="/case-studies/customer-analytics/Categorical Variables Distribution.PNG"
+            src="/images/case-studies/customer-analytics/Categorical Variables Distribution.PNG"
             alt="Categorical Variables"
-            width={1400}
-            height={900}
+            width={800}
+            height={500}
             className="mt-10 rounded-2xl border border-white/10"
             />
 
@@ -581,18 +546,18 @@ export default function CustomerAnalyticsPage() {
             </p>
 
             <Image
-            src="/case-studies/customer-analytics/Categorical vs Numerical Distribution.PNG"
+            src="/images/case-studies/customer-analytics/Categorical vs Numerical Distribution.PNG"
             alt="Categorical vs Numerical"
-            width={1400}
-            height={900}
+            width={800}
+            height={500}
             className="mt-10 rounded-2xl border border-white/10"
             />
 
             <Image
-            src="/case-studies/customer-analytics/Categorical vs Categorical Distribution.PNG"
+            src="/images/case-studies/customer-analytics/Categorical vs Categorical Distribution.PNG"
             alt="Categorical vs Categorical"
-            width={1400}
-            height={900}
+            width={800}
+            height={500}
             className="mt-10 rounded-2xl border border-white/10"
             />
 
@@ -641,18 +606,18 @@ export default function CustomerAnalyticsPage() {
             </p>
 
             <Image
-            src="/case-studies/customer-analytics/Numerical vs Numerical Heatmap.PNG"
+            src="/images/case-studies/customer-analytics/Numerical vs Numerical Heatmap.PNG"
             alt="Correlation Heatmap"
-            width={1400}
-            height={900}
+            width={700}
+            height={450}
             className="mt-10 rounded-2xl border border-white/10"
             />
 
             <Image
-            src="/case-studies/customer-analytics/Numerical vs Numerical Distribution.PNG"
+            src="/images/case-studies/customer-analytics/Numerical vs Numerical Distribution.PNG"
             alt="Scatterplots"
-            width={1400}
-            height={900}
+            width={800}
+            height={500}
             className="mt-10 rounded-2xl border border-white/10"
             />
 
@@ -946,10 +911,10 @@ export default function CustomerAnalyticsPage() {
             </p>
 
             <Image
-                src="/case-studies/customer-analytics/Model Evaluation Table.PNG"
+                src="/images/case-studies/customer-analytics/Model Evaluation Table.PNG"
                 alt="Model Evaluation Results"
-                width={1400}
-                height={900}
+                width={600}
+                height={400}
                 className="mt-12 rounded-2xl border border-white/10"
             />
 
@@ -1175,11 +1140,11 @@ export default function CustomerAnalyticsPage() {
 
                 <div className="mt-8">
 
-                <Link href="/case-studies/sql-sales-dashboard">
+                <Link href="/case-studies/sales-dashboard">
 
                     <Button>
 
-                    View Next Case Study →
+                    Read Case Study →
 
                     </Button>
 

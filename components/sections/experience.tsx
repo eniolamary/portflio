@@ -22,14 +22,6 @@ const timeline = [
     description:
       "Completed an intensive data science program covering Python, SQL, statistics, machine learning, data visualization, and real-world analytical workflows.",
   },
-
-  {
-    icon: GraduationCap,
-    title: "B.Sc. Agricultural Economics",
-    subtitle: "University of Ibadan",
-    description:
-      "Developed strong analytical, statistical, and research skills through coursework focused on economics, data interpretation, and decision-making.",
-  },
 ];
 
 export default function Experience() {
@@ -44,7 +36,7 @@ export default function Experience() {
           <div className="mb-16 text-center">
 
             <p className="font-semibold text-primary">
-              EXPERIENCE & EDUCATION
+              EXPERIENCE
             </p>
 
             <h2 className="mt-4 text-4xl font-bold">
