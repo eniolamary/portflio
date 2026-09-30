@@ -44,9 +44,15 @@ const projects = [
   },
 
   {
-    title: "Time Series Forecasting",
-    image: "/images/projects/forecasting.jpg",
-    status: "Coming Soon",
+    title: "Time Series Sales Forecast",
+    image: "/images/projects/BI_Dashboard.png",
+    description:
+      "Forecasted 21 days of retail sales using a tuned multivariate Random Forest model, incorporating lag, rolling, inventory and price features.",
+    tools: ["Python", "Scikit-learn", "Power BI", "Time Series", "Matplotlib"],
+    github: "https://github.com/eniolamary/Time-Series-Sales-Forecast",
+    caseStudy: "/case-studies/time-series",
+    demo: "#",
+    status: "Completed",
   },
 
   {

@@ -50,13 +50,25 @@ const featuredProjects = [
     github: "#",
     demo: "#",
   },
+
+  {
+    title: "Time Series Sales Forecast",
+    image: "/images/projects/BI_Dashboard.png",
+    problem:
+      "Forecasted 21 days of retail sales using a tuned multivariate Random Forest model, incorporating lag, rolling, inventory and price features.",
+    tools: [
+      "Python",
+      "Scikit-learn",
+      "Power BI",
+      "Time Series",
+      "Matplotlib",
+    ],
+    github: "#",
+    demo: "#",
+  },
 ];
 
 const upcomingProjects = [
-  {
-    title: "Time Series Forecasting",
-    image: "/images/projects/forecasting.jpg",
-  },
   {
     title: "Deep Learning",
     image: "/images/projects/deep-learning.jpg",
