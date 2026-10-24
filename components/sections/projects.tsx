@@ -45,7 +45,7 @@ const projects = [
 
   {
     title: "Time Series Sales Forecast",
-    image: "/images/projects/BI_Dashboard.png",
+    image: "/images/projects/BI_Dashboard.PNG",
     description:
       "Forecasted 21 days of retail sales using a tuned multivariate Random Forest model, incorporating lag, rolling, inventory and price features.",
     tools: ["Python", "Scikit-learn", "Power BI", "Time Series", "Matplotlib"],

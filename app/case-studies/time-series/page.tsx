@@ -224,7 +224,7 @@ export default function TimeSeriesForecastPage() {
 
           <div className="mt-10 flex justify-center">
             <Image
-              src="/images/case-studies/time-series/forecast-dashboard.png"
+              src="/images/case-studies/time-series/forecast-dashboard.PNG"
               alt="Time Series Sales Forecast Power BI Dashboard"
               width={1200}
               height={700}
